@@ -1,0 +1,16 @@
+{
+  "name": "AutoReadSw",
+  "version": "0.1",
+  "description": "Auto Read Story WhatsApp",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js --pairing-code"
+  },
+  "author": "JayzaniaXd",
+  "license": "MIT",
+  "dependencies": {
+    "@whiskeysockets/baileys": "latest",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
